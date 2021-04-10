@@ -2,8 +2,10 @@
 This project performs colour quantization with a k-means clustering algorithm.
 
 ## Usage
-Run this code in the commandline by calling```
-$ python main.py IMAGE-PATH K-VALUE```
+Run this code in the commandline by calling
+```
+$ python main.py IMAGE-PATH K-VALUE
+```
 It will display the results of the algorithm in a popup window using the Pillow image processing library.
 
 ## What is Colour Quantization?
