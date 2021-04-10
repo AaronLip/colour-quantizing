@@ -12,4 +12,5 @@ Colour quantization reduces the amount of colours in an image while maintaining 
 ## What is K-Means Clustering?
 K-Means Clustering is a process that finds the natural clusters inside data. In this case, we're using data in the form of RGB pixels in an image, so the algorithm finds a palette of `K-VALUE` distinct colours that roughly approximate the image.
 
-Ordinarily this is where K-Means ends. However this project uses then recolours each pixel by finding the closest colour on the palette generated. There are some very effective algorithms for colour quantization of images, such as [scolorq](https://people.eecs.berkeley.edu/~dcoetzee/downloads/scolorq/#sampleimages).
+## Additional Notes
+Ordinarily K-Means doesn't go further than producing the clusters. However this project then performs colour quantization by recolouring each pixel to the nearest colour on the palette generated. There are some very effective domain-specific algorithms for colour quantization of images, such as [scolorq](https://people.eecs.berkeley.edu/~dcoetzee/downloads/scolorq/#sampleimages).
